@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.pip-wheel-metadata/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+local_settings.py
+media/
+staticfiles/
+static_root/
+coverage/
+htmlcov/
+*.mo
+
+# Django migrations (optional - if you want clean history)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+# Uncomment the next line if you don't want to commit initial migrations
+# */migrations/*.py
+
+# PostgreSQL
+*.pgsql
+*.sql
+
+# Environment variables
+.env
+.env.*
+
+# VS Code / JetBrains / Other IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node (if using React frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# React build
+frontend/build/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+celerybeat-schedule
+__pycache__/
+docker-compose.override.yml
