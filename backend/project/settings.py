@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'rest_framework',
+    'rest_framework',                                  # DRF
     'rest_framework.authtoken',
     'dj_rest_auth',
     'django.contrib.sites',
@@ -174,6 +174,7 @@ REST_AUTH = {
     'USE_JWT': True,
     'JWT_AUTH_COOKIE': 'devfolio_access_token',
     'JWT_AUTH_REFRESH_COOKIE': 'devfolio_refresh_token',
+    'REGISTER_SERIALIZER': 'accounts.serializers.RegisterSerializer',
 }
 
 AUTH_USER_MODEL = 'accounts.User'
